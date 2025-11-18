@@ -22,6 +22,8 @@ export class RPC {
   private pendingTaskCancelCallback: Map<string, Set<() => void>> = new Map();
 
   async connect() {
+    winston.info(JSON.stringify(config, null, 2));
+
     winston.info("Trying to connect to the server...");
 
     if (this.socket) {

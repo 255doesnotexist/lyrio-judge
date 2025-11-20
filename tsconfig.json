@@ -12,7 +12,8 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "simple-sandbox": ["simple-sandbox/src"]
     }
   },
   "exclude": ["node_modules", "dist", "build"]

@@ -1113,7 +1113,7 @@ clone@^1.0.2:
   resolved "https://registry.npmmirror.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
-cmake-js@^6.1.0, cmake-js@^6.3.2:
+cmake-js@^6.3.2:
   version "6.3.2"
   resolved "https://registry.npmmirror.com/cmake-js/-/cmake-js-6.3.2.tgz#4ee827bea99205e1bfda86f5883994873af357b6"
   integrity sha512-7MfiQ/ijzeE2kO+WFB9bv4QP5Dn2yVaAP2acFJr4NIFy2hT4w6O4EpOTLNcohR5IPX7M4wNf/5taIqMj7UA9ug==
@@ -2653,9 +2653,9 @@ levn@^0.4.1:
     type-check "~0.4.0"
 
 libphonenumber-js@^1.9.43:
-  version "1.12.26"
-  resolved "https://registry.npmmirror.com/libphonenumber-js/-/libphonenumber-js-1.12.26.tgz#f8f5df8d9884a87d39f2a999e3cc8cb735df9dd3"
-  integrity sha512-MagMOuqEXB2Pa90cWE+BoCmcKJx+de5uBIicaUkQ+uiEslZ0OBMNOkSZT/36syXNHu68UeayTxPm3DYM2IHoLQ==
+  version "1.12.27"
+  resolved "https://registry.npmmirror.com/libphonenumber-js/-/libphonenumber-js-1.12.27.tgz#a44d2435bfb8b280253379d8bc9f303b65906549"
+  integrity sha512-8gHhHzzcnY1EF4BS5L/lrjv2VAZWd6ltU7c/sqoktRZSQvZl4g8hrgXtXHXGkSFKFYArFON12zUNJrNVqJ9u4g==
 
 lines-and-columns@^1.1.6:
   version "1.2.4"
@@ -2864,11 +2864,6 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
-
-node-addon-api@^3.0.2:
-  version "3.2.1"
-  resolved "https://registry.npmmirror.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
-  integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
 
 node-addon-api@^5.0.0:
   version "5.1.0"
@@ -3518,16 +3513,6 @@ signal-exit@^3.0.2:
   version "3.0.7"
   resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
-
-simple-sandbox@^0.3.25:
-  version "0.3.25"
-  resolved "https://registry.npmmirror.com/simple-sandbox/-/simple-sandbox-0.3.25.tgz#c4b74c1dfe8c023cd2148981a1963b857a73db0c"
-  integrity sha512-woUwyKWIUHod1/JiD7jFL5J+rLHUwGe3owCSz0qNQn3Wog5QvpjdcDfCn32UiIug+wsfeAlhaLfKIIrJicyn1Q==
-  dependencies:
-    bindings "^1.5.0"
-    cmake-js "^6.1.0"
-    node-addon-api "^3.0.2"
-    randomstring "^1.1.5"
 
 slash@^3.0.0:
   version "3.0.0"
